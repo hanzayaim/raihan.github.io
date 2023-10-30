@@ -12,13 +12,49 @@ body {
     line-height: 1.6;
 }
 
+h1 {
+    font-size: 2.125rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+h5 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
 nav {
     background-color: #000;
     color: #c0c0c0;
     text-align: center;
 }
 
-.nav-items {
+.nav__items {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,24 +82,42 @@ nav {
 #hero {
     background-color: #000;
     color: #fff;
-    padding: 40px;
-    height: 700px;
+    padding: 80px;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.hero-content {
-    background-color: transparent;
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 80%;
 }
 
-.hero-content h1 {
-    font-size: 36px;
+.hero__content h0 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0000ff;
 }
 
-.hero-content p {
-    font-size: 18px;
+.hero__content h1 {
+    font-size: 40px;
+}
+
+.hero__content p {
+    font-size: 20px;
     margin-top: 20px;
+    line-height: 1.5;
 }
 
-.hero-content a {
+.hero__contact img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.hero__content a {
     background-color: #0000ff;
     color: #fff !important;
     text-decoration: none;
@@ -77,20 +131,160 @@ nav {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.hero-content a:hover {
+.hero__content a:hover {
     background-color: #fff;
     color: #0000ff !important;
     text-decoration: underline !important;
     font-weight: bold;
 }
 
-.hero-content-photo {
+.hero__content__photo {
+    max-width: 40%;
+}
+
+.hero__content__photo__wrapper {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    overflow: hidden;
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.hero__content__photo img {
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 600px;
+}
+
+#education {
+    padding: 40px;
+    text-align: center;
+}
+
+#education h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#education h2 {
+    font-size: 30px;
+}
+
+#education h3 {
+    font-size: 20px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#education .card {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: left;
+    margin: 5px;
+}
+
+#education .card .card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+#experience {
+    background-color: #000;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+#experience h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#experience h2 {
+    font-size: 30px;
+}
+
+#experience h3 {
+    font-size: 20px;
+}
+
+#experience .card .card-img-top {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+#experience .card-group {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.hero-content-photo img {
-    width: 1000px;
-    height: 500px;
+#experience .card {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 350px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+#experience .card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#experience h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skill__group {
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.skills__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__image img {
+    max-width: 80px;
+    margin: 0 10px;
+}
+
+.skill__group p {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
 }

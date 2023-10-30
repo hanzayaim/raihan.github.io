@@ -11,7 +11,7 @@
 <body>
     <nav>
         <div class="container">
-            <div class="nav-items">
+            <div class="nav__items">
                 <div class="items"><a href="">Home</a></div>
                 <div class="items"><a href="">Education</a></div>
                 <div class="items"><a href="">Skill</a></div>
@@ -25,27 +25,33 @@
 
     <section id="hero">
         <div class="row">
-            <div class="col-md-6 hero-content">
+            <div class="col-md-6 hero__content">
                 <h1>Hi, my name is</h1>
-                <h1>RAIHAN DAFFA RIZKY</h1>
+                <h0>RAIHAN DAFFA RIZKY</h0>
                 <p>I am a second semester student majoring in Computer Science at Bina Nusantara University with a GPA of 3.82. I specialize in Mobile Application and Technology, which involves mobile application development using Android, Swift, C#, Flutter, Dart, and database management. In addition, I am also developing skills in management and leadership in projects.</p>
-                <a>Next</a>
+                <div class="hero__contact">
+                    <img src="img/linkedin-logo.svg">
+                    <img src="img/github-logo.svg">   
+                </div>
+                <a href="#">Continue</a>
             </div>
-            <div class="col-md-6 hero-content-photo">
-                <img src="img/raihan-photo.svg">
+            <div class="col-md-6 hero__content__photo">
+                <div class="hero__content__photo__wrapper">
+                    <img src="img/raihan-photo.png" alt="Raihan Daffa Rizky's photo">
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <h5>EDUCATION</h5>
+    <section id="education">
+        <div class="container" id="education__section">
+            <h1>Education</h1>
             <div class="card-group">
-                <div class="card">
+                <div class="card" id="binus__card">
                     <img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-Binus-University-Universitas-Bina-Nusantara-Original-PNG.png" class="card-img-top">
                     <div class="card-body">
-                        <h5>BINA NUSANTARA UNIVERSITY</h5>
-                        <h6>Bachelor of Science (BS) - Computer Science</h6>
+                        <h2>Bina Nusantara University</h2>
+                        <h3>Bachelor of Science (BS) - Computer Science</h3>
                         <p>2021 - 2025 | 3.82 / 4 GPA</p>
                         <p><b>Activities and societies</b></p>
                         <p>- Member of Bina Nusantara Computer Club (BNCC) | 2021 - 2021</p>
@@ -57,15 +63,15 @@
                         <p>- I contributed in several volunteer activities in the organization such as helping UMKM and communicating with team members.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="smk__card">
                     <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
                     <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
-                        <h6>Teknik Komputer Jaringan</h6>
+                        <h2>SMK Negeri 2 Pengasih</h2>
+                        <h3>Teknik Komputer Jaringan</h3>
                         <p>2018 - 2021 | 89.64 / 100 GPA</p>
                         <p><b>Activities and societies</b></p>
                         <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
-                        <p><b>Activities and societies</b></p>
+                        <p><b>Description</b></p>
                         <p>- I learned about computer networking and was a partner who won the 1st Student Competency Competition (LKS) in DIY and 5th in Indonesia.</p>
                         <p>- I learned about computer assembly, simple application development using C++ and website development using HTML, CSS, CodeIgniter, and Bootstrap.</p>
                         <p>- I am the 2nd secretary of the School Student Organization (OSIS) which is responsible for making letters and reports, dealing directly with school officials.</p>
@@ -75,39 +81,36 @@
         </div>
     </section>
 
-    <section>
+    <section id="experience">
         <div class="container">
-            <h5>EXPERIENCE</h5>
+            <h1>Experience</h1>
         <div>
             <div class="card-group">
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
+                <div class="card" id="experience__card1">
+                    <img src="img/hobbyhive-logo.svg" class="card-img-top">
                     <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
-                        <p>2020 - 2020 | Computer Network Engineer | Internship</p>
+                        <h2>HobbyHive</h2>
+                        <h3>Founder & CEO</h3>
+                        <p>2023 - present | Project</p>
                         <p><b>Description</b></p>
-                        <p>- I am responsible for the management and maintenance of the school's computer lab and ensuring all hardware and devices are functioning properly.</p>
-                        <p>- I also provide technical support to the staff and students so that they can perform their teaching-learning activities well.</p>
-                        <p>- I also designed and developed the school library website (Front End) using HTML, CSS, JavaScript and Bootstrap. This successfully improved the information seeking experience for students and members of the school community.</p>
+                        <p>- I took full responsibility for all aspects of HobbyHive, including project scheduling, leading the HobbyHive team, and delivering presentations.</p>
+                        <p>- I was responsible for designing the UI/UX of the application.</p>
+                        <p>- I conceptualized application features and workflows and carried out the coding for the application.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
+                <div class="card" id="experience__card2">
+                    <img src="img/blazebustar-logo.svg" class="card-img-top">
                     <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
-                        <p>2018 - 2021 | 89.64/100 GPA</p>
-                        <p><b>Activities and societies</b></p>
+                        <h5>Blaze BusterAR</h5>
+                        <p>2023 - present | Project</p>
+                        <p><b>Description</b></p>
                         <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- I learned about computer networking and was a partner who won the 1st Student Competency Competition (LKS) in DIY and 5th in Indonesia.</p>
-                        <p>- I learned about computer assembly, simple application development using C++ and website development using HTML, CSS, CodeIgniter, and Bootstrap.</p>
-                        <p>- I am the 2nd secretary of the School Student Organization (OSIS) which is responsible for making letters and reports, dealing directly with school officials.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
+                <div class="card" id="experience__card3">
+                    <img src="img/breadiceous-logo.svg" class="card-img-top">
                     <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
+                        <h5>Breadiceous</h5>
                         <p>2018 - 2021 | 89.64/100 GPA</p>
                         <p><b>Activities and societies</b></p>
                         <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
@@ -119,10 +122,10 @@
                 </div>
             </div>
             <div class="card-group">
-                <div class="card">
-                    <img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-Binus-University-Universitas-Bina-Nusantara-Original-PNG.png" class="card-img-top">
+                <div class="card" id="experience__card4">
+                    <img src="https://www.bncc.net/assets/img/BNCC_M_Original.png" class="card-img-top">
                     <div class="card-body">
-                        <h5>BINA NUSANTARA UNIVERSITY</h5>
+                        <h5>Bina Nusantara Computer Club</h5>
                         <p>2021 - 2025 | 3.82/4 GPA</p>
                         <p><b>Activities and societies</b></p>
                         <p>- Member of Bina Nusantara Computer Club (BNCC) | 2021 - 2021</p>
@@ -134,7 +137,7 @@
                         <p>- I contributed in several volunteer activities in the organization such as helping UMKM and communicating with team members.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="experience__card5">
                     <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
                     <div class="card-body">
                         <h5>SMK Negeri 2 Pengasih</h5>
@@ -147,10 +150,10 @@
                         <p>- I am the 2nd secretary of the School Student Organization (OSIS) which is responsible for making letters and reports, dealing directly with school officials.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
+                <div class="card" id="experience__card6">
+                    <img src="https://i.pinimg.com/originals/8a/be/59/8abe59ce19e13a592614063b32c0f04e.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
+                        <h5>Zota Esport</h5>
                         <p>2018 - 2021 | 89.64/100 GPA</p>
                         <p><b>Activities and societies</b></p>
                         <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
@@ -165,34 +168,37 @@
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <h5>SKILL</h5>
-            <div id="carouselSkill" class="carousel slide carousel-fade" data-bs-slide="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div>
-                            <img src="img/android-logo.png" class="d-block w-100" alt="">
-                        </div>
-                        <div>
-                            <img src="img/android-logo.png" class="d-block w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://i.pinimg.com/550x/71/ce/46/71ce46b7fca54e5c7708c8f7b3c1684e.jpg" class="d-block w-100" alt="">
-                    </div>
+    <section id="skills">
+        <h1>Skill</h1>
+        <div class="skills">
+            <div class="skill__group">
+                <div class="skills__image">
+                    <img src="img/html-logo.svg">
+                    <img src="img/css-logo.svg">
+                    <img src="img/javasript-logo.svg">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="carouselSkill" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="carouselSkill" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <p>Front End Development</p>
+            </div>
+            <div class="skill__group">
+                <div class="skills__image">
+                    <img src="img/firebase-logo.svg">
+                    <img src="img/php-logo.svg">
+                </div>
+                <p>Back End Development</p>
+            </div>
+            <div class="skill__group">
+                <div class="skills__image">
+                    <img src="img/android-logo.svg">
+                    <img src="img/ios-logo.svg">
+                    <img src="img/java-logo.svg">
+                    <img src="img/kotlin-logo.svg">
+                    <img src="img/swift-logo.svg">
+                    <img src="img/csharp-logo.svg">
+                </div>
+                <p>Mobile Development</p>
             </div>
         </div>
-    </section>
+    </section>    
 
     <section>
         <h2>PORTOFOLIO</h2>
@@ -210,95 +216,6 @@
                 </div>
                 <div class="col-md-6">
                     <img src="img/raihan-photo.png">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <h5>EXPERIENCE</h5>
-        <div>
-            <div class="card-group">
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
-                    <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
-                        <p>2020 - 2020 | Computer Network Engineer | Internship</p>
-                        <p><b>Description</b></p>
-                        <p>- I am responsible for the management and maintenance of the school's computer lab and ensuring all hardware and devices are functioning properly.</p>
-                        <p>- I also provide technical support to the staff and students so that they can perform their teaching-learning activities well.</p>
-                        <p>- I also designed and developed the school library website (Front End) using HTML, CSS, JavaScript and Bootstrap. This successfully improved the information seeking experience for students and members of the school community.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
-                    <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
-                        <p>2018 - 2021 | 89.64/100 GPA</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- I learned about computer networking and was a partner who won the 1st Student Competency Competition (LKS) in DIY and 5th in Indonesia.</p>
-                        <p>- I learned about computer assembly, simple application development using C++ and website development using HTML, CSS, CodeIgniter, and Bootstrap.</p>
-                        <p>- I am the 2nd secretary of the School Student Organization (OSIS) which is responsible for making letters and reports, dealing directly with school officials.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
-                    <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
-                        <p>2018 - 2021 | 89.64/100 GPA</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- I learned about computer networking and was a partner who won the 1st Student Competency Competition (LKS) in DIY and 5th in Indonesia.</p>
-                        <p>- I learned about computer assembly, simple application development using C++ and website development using HTML, CSS, CodeIgniter, and Bootstrap.</p>
-                        <p>- I am the 2nd secretary of the School Student Organization (OSIS) which is responsible for making letters and reports, dealing directly with school officials.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-group">
-                <div class="card">
-                    <img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-Binus-University-Universitas-Bina-Nusantara-Original-PNG.png" class="card-img-top">
-                    <div class="card-body">
-                        <h5>BINA NUSANTARA UNIVERSITY</h5>
-                        <p>2021 - 2025 | 3.82/4 GPA</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- Member of Bina Nusantara Computer Club (BNCC) | 2021 - 2021</p>
-                        <p>- Member of Himpunan Mahasiswa Teknik Informatika (HIMTI) | 2021-2021</p>
-                        <p>- Member of Binusian Gaming | 2022 - present</p>
-                        <p><b>Description</b></p>
-                        <p>- I learned about C, C#, Java, and Swift programming languages. In addition, I learned about how to design and create applications and databases appropriately.</p>
-                        <p>- I learned about leadership and how to work with others in projects. Starting from time management, project work planning, project work, debugging process, and application deployment. I am familiar with the Agile development method.</p>
-                        <p>- I contributed in several volunteer activities in the organization such as helping UMKM and communicating with team members.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
-                    <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
-                        <p>2018 - 2021 | 89.64/100 GPA</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- I learned about computer networking and was a partner who won the 1st Student Competency Competition (LKS) in DIY and 5th in Indonesia.</p>
-                        <p>- I learned about computer assembly, simple application development using C++ and website development using HTML, CSS, CodeIgniter, and Bootstrap.</p>
-                        <p>- I am the 2nd secretary of the School Student Organization (OSIS) which is responsible for making letters and reports, dealing directly with school officials.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
-                    <div class="card-body">
-                        <h5>SMK Negeri 2 Pengasih</h5>
-                        <p>2018 - 2021 | 89.64/100 GPA</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
-                        <p><b>Activities and societies</b></p>
-                        <p>- I learned about computer networking and was a partner who won the 1st Student Competency Competition (LKS) in DIY and 5th in Indonesia.</p>
-                        <p>- I learned about computer assembly, simple application development using C++ and website development using HTML, CSS, CodeIgniter, and Bootstrap.</p>
-                        <p>- I am the 2nd secretary of the School Student Organization (OSIS) which is responsible for making letters and reports, dealing directly with school officials.</p>
-                    </div>
                 </div>
             </div>
         </div>
