@@ -4,151 +4,254 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-
-    <title>Welcome to My Profile - Raihan Daffa Rizky</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Raihan Daffa Rizky - Personal Portofolio</title>
 </head>
 <body>
-    <script src="script.js"></script>
-
     <nav>
-        <div>
-            <img class="nav-logo" src="raihan-photo.png" alt="raihan-photo"/>
+        <div class="container">
+            <div class="nav__items">
+                <div class="items"><a href="">Home</a></div>
+                <div class="items"><a href="">Education</a></div>
+                <div class="items"><a href="">Skill</a></div>
+                <div class="items"><a href="">Experience</a></div>
+                <div class="items"><a href="">Portofolio</a></div>
+                <div class="items"><a href="">Certificate</a></div>
+                <div class="items"><a href="">Contact</a></div>
+            </div>
         </div>
-        <div>
-            <h1>RAIHAN DAFFA RIZKY</h1>
-        </div>
-        <ul>
-            <li>
-                <a href="#home">HOME</a>
-            </li>
-            <li>
-                <a href="#skills">SKILLS</a>
-            </li>
-            <li>
-                <a href="#educations">EDUCATIONS</a>
-            </li>
-            <li>
-                <a href="#workexperiences">WORK EXPERIENCES</a>
-            </li>
-            <li>
-                <a href="#organizationexperiences">ORGANIZATION EXPERIENCES</a>
-            </li>
-            <li>
-                <a href="#certificates">CERTIFICATES</a>
-            </li>
-            <li>
-                <a href="#portfolios">PORTOFOLIOS</a>
-            </li>
-            <li>
-                <a href="#contacts">CONTACTS</a>
-            </li>
-        </ul>
     </nav>
 
-    <div class="container">
+    <section id="hero">
         <div class="row">
-            <div class="col-md-6 col-text">
-                <h1>Hi, my name is RAIHAN DAFFA RIZKY</h1>
-                <h2>I am a second-year Computer Science student with a focus on mobile development.
-                    I am passionate about technology and want to create useful applications.
-                    Already have basic Java, C#, Kotlin, Dart, and Swift programming languages, as well as UI/UX experience.
-                    I would like to continue learning and contributing to relevant projects in the future.
-                </h2>
-                <a href="#skills" class="btn btn-primary start-now">Get to Know!</a>
+            <div class="col-md-6 hero__content">
+                <h1>Hi, my name is</h1>
+                <h0>RAIHAN DAFFA RIZKY</h0>
+                <p>I am a second semester student majoring in Computer Science at Bina Nusantara University with a GPA of 3.82. I specialize in Mobile Application and Technology, which involves mobile application development using Android, Swift, C#, Flutter, Dart, and database management. In addition, I am also developing skills in management and leadership in projects.</p>
+                <div class="hero__contact">
+                    <img src="img/linkedin-logo.svg">
+                    <img src="img/github-logo.svg">   
+                </div>
+                <a href="#">Continue</a>
             </div>
-            <div class="col-md-6 col-image">
-                <img src="raihan-photo.png" alt="raihan-photo"/>
+            <div class="col-md-6 hero__content__photo">
+                <div class="hero__content__photo__wrapper">
+                    <img src="img/raihan-photo.png" alt="Raihan Daffa Rizky's photo">
+                </div>
             </div>
         </div>
-    </div>    
+    </section>
 
-        <h1>SKILLS</h1>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Languages</h2>
-                <p>Indonesia</p>
-                <p>English</p>
-
-                <h2>Communications</h2>
-                <p>Active Listening</p>
-                <p>Clear Communication</p>
-                <p>Presentation</p>
-                <p>Problem Resolve</p>
-                <p>Written communication</p>
-
-                <h2>Organizationals</h2>
-                <p>Time Management</p>
-                <p>Project Planning</p>
-                <p>Data Management</p>
-                <p>Meeting Organization</p>
-                <p>Task Delegation</p>
-                <p>Event Planning</p>
-
-                <h2>Computers</h2>
-                <p>C#</p>
-                <p>Java</p>
-                <p>HTML & CSS</p>
-                <p>JavaScript</p>
-                <p>Kotlin</p>
-                <p>Swift</p>
-                <p>SQL Database</p>
-                <p>Room Database</p>
-                <p>Firebase Database</p>
+    <section id="education">
+        <div class="container" id="education__section">
+            <h1>Education</h1>
+            <div class="card-group">
+                <div class="card" id="binus__card">
+                    <img src="https://rekreartive.com/wp-content/uploads/2018/10/Logo-Binus-University-Universitas-Bina-Nusantara-Original-PNG.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2>Bina Nusantara University</h2>
+                        <h3>Bachelor of Science (BS) - Computer Science</h3>
+                        <p>2021 - 2025 | 3.82 / 4 GPA</p>
+                        <p><b>Activities and societies</b></p>
+                        <p>- Member of Bina Nusantara Computer Club (BNCC) | 2021 - 2021</p>
+                        <p>- Member of Himpunan Mahasiswa Teknik Informatika (HIMTI) | 2021-2021</p>
+                        <p>- Member of Binusian Gaming | 2022 - present</p>
+                        <p><b>Description</b></p>
+                        <p>- I learned about C, C#, Java, and Swift programming languages. In addition, I learned about how to design and create applications and databases appropriately.</p>
+                        <p>- I learned about leadership and how to work with others in projects. Starting from time management, project work planning, project work, debugging process, and application deployment. I am familiar with the Agile development method.</p>
+                        <p>- I contributed in several volunteer activities in the organization such as helping UMKM and communicating with team members.</p>
+                    </div>
+                </div>
+                <div class="card" id="smk__card">
+                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2>SMK Negeri 2 Pengasih</h2>
+                        <h3>Teknik Komputer Jaringan</h3>
+                        <p>2018 - 2021 | 89.64 / 100 GPA</p>
+                        <p><b>Activities and societies</b></p>
+                        <p>- Organisasi Siswa Intera Sekolah (OSIS) | 2018 - 2021</p>
+                        <p><b>Description</b></p>
+                        <p>- I learned about computer networking and was a partner who won the 1st Student Competency Competition (LKS) in DIY and 5th in Indonesia.</p>
+                        <p>- I learned about computer assembly, simple application development using C++ and website development using HTML, CSS, CodeIgniter, and Bootstrap.</p>
+                        <p>- I am the 2nd secretary of the School Student Organization (OSIS) which is responsible for making letters and reports, dealing directly with school officials.</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <h1>EDUCATIONS</h1>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Bina Nusantara University</h2>
-                <p></p>
-                <h2>SMK N 2 Pengasih</h2>
-                <p></p>
+    <section id="experience">
+        <div class="container">
+            <h1>Experience</h1>
+        <div>
+            <div class="card-group">
+                <div class="card" id="experience__card1">
+                    <img src="img/hobbyhive-logo.svg" class="card-img-top">
+                    <div class="card-body">
+                        <h2>HobbyHive</h2>
+                        <h3>Founder & CEO</h3>
+                        <p>2023 - present | Project</p>
+                        <p><b>Description</b></p>
+                        <p>- I took full responsibility for all aspects of HobbyHive, including project scheduling, leading the HobbyHive team, and delivering presentations.</p>
+                        <p>- I was responsible for designing the UI/UX of the application.</p>
+                        <p>- I conceptualized application features and workflows and carried out the coding for the application.</p>
+                    </div>
+                </div>
+                <div class="card" id="experience__card2">
+                    <img src="img/blazebustar-logo.svg" class="card-img-top">
+                    <div class="card-body">
+                        <h2>Blaze BusterAR</h2>
+                        <h3>Founder & CEO</h3>
+                        <p>2023 - present | Project</p>
+                        <p><b>Description</b></p>
+                        <p>- I assumed full responsibility for all aspects of Blaze BusterAR, which encompassed project scheduling, leading the Blaze BusterAR team, and delivering compelling presentations.</p>
+                        <p>- I was instrumental in designing the application's features and workflows, actively engaging in the programming of the application.</p>
+                        <p>- I achieved the status of finalists in the School of Computer Science (SoCS) Hackathon at Bina Nusantara University.</p>
+                    </div>
+                </div>
+                <div class="card" id="experience__card3">
+                    <img src="img/breadiceous-logo.svg" class="card-img-top">
+                    <div class="card-body">
+                        <h2>Breadiceous</h2>
+                        <h3>Founder & CEO</h3>
+                        <p>2023 - present | Project</p>
+                        <p><b>Description</b></p>
+                        <p>- I assumed full responsibility for Breadiceous, overseeing team leadership, project scheduling, product design, and prototype development.</p>
+                        <p>- I played a pivotal role in the production and distribution processes of Breadiceous products.</p>
+                        <p>- I managed key collaborations with partners and affiliates to drive mutual success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card" id="experience__card5">
+                    <img src="https://pmjc.id/uploads/community_logo/1663432735-binus%20gaming.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2>Binusian Gaming</h2>
+                        <h3>Member</h3>
+                        <p>2022 - 2023 | Organization</p>
+                        <p><b>Description</b></p>
+                        <p>- I have enthusiastically engaged in a multitude of gaming tournaments, both within the Binusian Gaming (BG) community and in external competitions.</p>
+                        <p>- I have cultivated a strong proficiency in teamwork, effective communication, and astute analysis of team strategies.</p>
+                        <P>- I have proactively enhanced my leadership capabilities by willingly accepting and conquering challenges, all in the spirit of contributing to forthcoming projects.</P>
+                    </div>
+                </div>
+                <div class="card" id="experience__card4">
+                    <img src="https://www.bncc.net/assets/img/products/logo-BNCC%20LnT.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2>Bina Nusantara Computer Club</h2>
+                        <h3>Volunteer</h3>
+                        <p>2021 - 2021 | Organization</p>
+                        <p><b>Description</b></p>
+                        <p>- I played a key role in developing promotional strategies to bolster Small and Medium-sized Enterprises (SMEs), encompassing package design and promotional video creation.</p>
+                        <p>- Taking charge of crafting compelling and efficient packaging designs, I emphasized aesthetics and functionality tailored to the product's needs.</p>
+                        <p>- Collaboratively, I worked with the team to produce captivating and impactful visual content.</p>
+                    </div>
+                </div>
+                <div class="card" id="experience__card5">
+                    <img src="https://web.smkn2pengasih.sch.id/assets/images/logo/1634549522-1589111814-logo-black.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2>SMK Negeri 2 Pengasih</h2>
+                        <h3>Computer Network Engineer</h3>
+                        <p>2020 - 2020 | Internship</p>
+                        <p><b>Description</b></p>
+                        <p>- I hold the crucial role of overseeing and maintaining the school's computer lab, ensuring the seamless operation of all hardware and devices.</p>
+                        <p>- I offer dedicated technical support to both the staff and students, empowering them to excel in their teaching and learning endeavors.</p>
+                        <p>- I took the initiative to design and develop the school library website (Front End) utilizing HTML, CSS, JavaScript, and Bootstrap. This enhancement significantly elevated the information retrieval experience for students and the entire school community.</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <h1>WORK EXPERIENCES</h1>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Computer Network Engineer Internship</h2>
-                <p>SMK N 2 Pengasih</p>
-                <h2>Team Manager</h2>
-                <p>Zota E-Sport</p>
+    <section id="skills">
+        <h1>Skill</h1>
+        <div class="skills">
+            <div class="skill__group">
+                <div class="skills__image">
+                    <img src="img/html-logo.svg">
+                    <img src="img/css-logo.svg">
+                    <img src="img/javasript-logo.svg">
+                </div>
+                <p>Front End Development</p>
+            </div>
+            <div class="skill__group">
+                <div class="skills__image">
+                    <img src="img/firebase-logo.svg">
+                    <img src="img/php-logo.svg">
+                </div>
+                <p>Back End Development</p>
+            </div>
+            <div class="skill__group">
+                <div class="skills__image">
+                    <img src="img/android-logo.svg">
+                    <img src="img/ios-logo.svg">
+                    <img src="img/java-logo.svg">
+                    <img src="img/kotlin-logo.svg">
+                    <img src="img/swift-logo.svg">
+                    <img src="img/csharp-logo.svg">
+                </div>
+                <p>Mobile Development</p>
             </div>
         </div>
+    </section>    
 
-        <h1>ORGANIZATION EXPERIENCES</h1>
+    <section id="portofolio">
         <div class="row">
-            <div class="col-md-6">
-                <h2></h2>
+            <h1 style="text-align: center; font-weight: bold;">Portofolio</h1>
+            <div class="portofolio__content__main"></div>
+            <div class="col-md-6 portofolio__content">
+                <h0>HOBBYHIVE</h0>
+                <p>Hobby Hive is an application designed for searching, renting, leasing, and much more related to sports activities. Hobby Hive emphasizes providing information to users who utilize the platform. There are numerous activities that can be performed within the Hobby Hive application. What sets the Hobby Hive app apart is its ability to provide a list of communities engaged in various fields.</p>
+                <div class="portofolio__contact">
+                    <img src="img/android-logo.svg">
+                    <img src="img/java-logo.svg">
+                    <img src="img/googlemaps-logo.svg">
+                </div>
+                <a href="#">Preview</a>
+            </div>
+            <div class="col-md-6 portofolio__content__photo">
+                <img src="img/hobbyhive-img-group.png" height="450px">
             </div>
         </div>
-
-        <h1>CERTIFICATES</h1>
+    </section>
+    
+    <section id="portofolio">
         <div class="row">
-            <div class="col-md-6">
-                <h2>Sertifikat Kompetensi Keahlian Teknik Komputer dan Jaringan</h2>
-                <h2>KKNI Level II pada Kompetensi Keahlian Teknik Komputer dan Jaringan</h2>
+            <div class="col-md-6 portofolio__content">
+                <h0>Blaze BusterAR</h0>
+                <p>BlazeBuster AR is an AR education application designed to provide interactive education and training on fire extinguishing techniques using augmented reality technology. It aims to help individuals learn how to extinguish fires accurately and effectively.</p>
+                <div class="portofolio__contact">
+                    <img src="img/android-logo.svg">
+                    <img src="img/java-logo.svg">
+                    <img src="img/googlemaps-logo.svg">
+                </div>
+                <a href="#">Preview</a>
+            </div>
+            <div class="col-md-6 portofolio__content__photo">
+                <img src="img/blazebusterar-img-group.png" height="450px">
             </div>
         </div>
+    </section>
 
-        <h1>PORTOFOLIOS</h1>
+    <section id="portofolio">
         <div class="row">
-            <div class="col-md-6">
-                <h1>HOBBYHIVE</h1>
-                <p2>Text</p2>
+            <div class="col-md-6 portofolio__content">
+                <h0>LECTURNA</h0>
+                <p>Lecturna is a coding course website uniquely crafted to make learning enjoyable for kids, as they acquire the essential skills to create websites, develop mobile apps, and delve into game development.</p>
+                <div class="portofolio__contact">
+                    <img src="img/android-logo.svg">
+                    <img src="img/java-logo.svg">
+                    <img src="img/googlemaps-logo.svg">
+                </div>
+                <a href="#">Preview</a>
             </div>
-            <div class="col-md-6">
-                <img src="hobbyhive.png"/>
+            <div class="col-md-6 portofolio__content__photo">
+                <img src="img/lecturna-img-group.png" height="350px">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h1></h1>
-            </div>
-        </div>
+    </section>
 
-    </div>
-
+    <script src="script.js"></script>
 </body>
 </html>

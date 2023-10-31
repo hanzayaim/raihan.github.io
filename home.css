@@ -194,6 +194,10 @@ nav {
     margin: 5px;
 }
 
+#education .card:hover {
+    transform: scale(1.05);
+}
+
 #education .card .card-img-top {
     max-height: 200px;
     object-fit: contain;
@@ -219,30 +223,30 @@ nav {
     font-size: 20px;
 }
 
-#experience .card .card-img-top {
-    max-height: 500px;
-    object-fit: contain;
+#experience .card {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+#experience .card:hover {
+    transform: scale(1.05);
+}
+
+#experience .card img.card-img-top {
+    max-height: 150px;
+    object-fit: cover;
 }
 
 #experience .card-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-#experience .card {
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    max-width: 350px;
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
-}
-
-#experience .card img {
-    max-height: 200px;
-    object-fit: cover;
 }
 
 #experience h5 {
@@ -287,4 +291,72 @@ nav {
     font-weight: bold;
     margin-top: 10px;
     font-size: 18px;
+}
+
+#portofolio {
+    background-color: #000;
+    color: #fff;
+    padding: 80px;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portofolio__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 80%;
+}
+
+.portofolio__content h0 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0000ff;
+}
+
+.portofolio__content h1 {
+    font-size: 40px;
+}
+
+.portofolio__content p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.portofolio__contact img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.portofolio__content a {
+    background-color: #0000ff;
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 200px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.portofolio__content a:hover {
+    background-color: #fff;
+    color: #0000ff !important;
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+
+.portofolio__content__photo {
+    max-width: 100%;
+}
+
+.portofolio__content__photo img {
+    max-width: 100%;
+    object-fit: cover;
 }
